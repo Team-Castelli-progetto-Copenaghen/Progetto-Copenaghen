@@ -1,13 +1,11 @@
 export class InMemoryDataService {
   createDb() {
     const heroes = [
-      { id: 11, name: 'Prodotto 1' },
-      { id: 12, name: 'Prodotto 2' },
-      { id: 13, name: 'Prodotto 3' },
-      { id: 14, name: 'Prodotto 4' },
-      { id: 15, name: 'Prodotto 5' },
-      { id: 16, name: 'Prodotto 6' }
-    ];
+      { id: 1, name: 'Valtenesi rosso doc' },
+      { id: 2, name: 'Valtenesi chiaretto doc' },
+      { id: 3, name: 'Groppello' },
+      { id: 4, name: 'Garda classico' }
+          ];
     return { heroes };
   }
 }
